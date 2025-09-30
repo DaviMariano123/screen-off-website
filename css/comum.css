@@ -13,8 +13,6 @@ body {
   min-height: 100vh;
 }
 
-/* Adicionando section. antes dos seletores e traduzindo classes para português */
-/* Cabeçalho e Navegação */
 section.cabecalho {
   background: white;
   padding: 15px 0;
@@ -121,7 +119,7 @@ section.menu-navegacao a.ativo {
   color: white;
 }
 
-/* Rodapé */
+
 section.rodape {
   background: #2d3436;
   color: white;
@@ -221,7 +219,7 @@ section.recipiente {
   padding: 40px 20px;
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
   section.container-navegacao {
     flex-direction: column;

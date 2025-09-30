@@ -1,5 +1,4 @@
 
-
 section.titulo-pagina,
 .titulo-pagina {
   text-align: center;
@@ -82,6 +81,7 @@ section.conteudo-video p,
 .conteudo-video p {
   color: #636e72;
   line-height: 1.5;
+  margin: 0 0 10px 0;
 }
 
 section.divisor-vermelho-horizontal,
@@ -100,7 +100,7 @@ section.divisor-vermelho-vertical,
   height: 100%;
 }
 
-/* Seção de aplicativos seguindo padrão de quadrantes de malefícios */
+
 section.secao-principal-aplicativos,
 .secao-principal-aplicativos {
   background: #f1f2f6;
@@ -242,4 +242,14 @@ section.item-aplicativo p,
   .titulo-pagina {
     font-size: 28px;
   }
+}
+.conteudo-video a {
+  background-color: #DFDFDF;
+  color: #686868;
+  border-radius: 30px;
+  padding: 6px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  margin: 55px;
+  font-weight: bold;
 }

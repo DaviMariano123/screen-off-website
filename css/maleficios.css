@@ -379,3 +379,13 @@ section.item-maleficio p {
     font-size: 28px;
   }
 }
+.secao-videos a {
+  background-color: #DFDFDF;
+  color: #686868;
+  border-radius: 30px;
+  padding: 6px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  margin: 55px;
+  font-weight: bold;
+}

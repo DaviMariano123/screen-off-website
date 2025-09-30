@@ -1,5 +1,3 @@
-/* Estilos específicos para a página de vício */
-/* Seguindo o padrão de malefícios com classes em português-BR e prefixos section. */
 
 section.titulo-pagina,
 .titulo-pagina {
@@ -11,7 +9,6 @@ section.titulo-pagina,
 ;
 }
 
-/* Adicionando seção de vídeos educativos seguindo padrão de malefícios */
 section.secao-videos-educativos,
 .secao-videos-educativos {
   background: #e8f4fd;
