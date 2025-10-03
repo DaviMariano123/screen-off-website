@@ -306,27 +306,38 @@ section.cartao-dica h4,
   font-size: 16px;
 }
 
-section.secao-ajuda,
-.secao-ajuda {
-  background: #ffe8e6;
-  border: 2px solid #e17055;
-  border-radius: 15px;
-  padding: 30px;
-  text-align: center;
-  margin: 30px 0;
+.emergency-contact .contact-item {
+  background: #ff4d4d;  
+  color: white;          
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 20px;
+
 }
 
-section.titulo-ajuda,
-.titulo-ajuda {
-  color: #e17055;
-  font-size: 20px;
-  margin-bottom: 15px;
-}
-
-section.texto-ajuda,
-.texto-ajuda {
-  color: #2d3436;
+.emergency-contact .contact-item h4 {
+  color: white;
   margin-bottom: 10px;
+}
+
+.emergency-contact .contact-details {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.emergency-contact .contact-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: white;
+  color: #ff4d4d;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.emergency-contact .contact-link:hover {
+  background: #ffe6e6;
 }
 
 @media (max-width: 768px) {
