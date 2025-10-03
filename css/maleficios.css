@@ -389,3 +389,9 @@ section.item-maleficio p {
   margin: 55px;
   font-weight: bold;
 }
+.conteudo-video p {
+  margin: 0 0 20px;
+}
+.espaco-texto {
+  margin: 0 0 20px;
+}
