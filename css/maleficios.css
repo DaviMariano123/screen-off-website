@@ -1,5 +1,3 @@
-
-
 section.titulo-pagina {
   text-align: center;
   font-size: 36px;
@@ -149,27 +147,12 @@ section.conteudo-video p {
   color: #636e72;
   line-height: 1.5;
 }
-
-section.divisor-vermelho-horizontal {
-  height: 4px;
-  background: #e17055;
-  border-radius: 2px;
-  width: 100%;
-}
-
-.divisor-vermelho-horizontal {
-  height: 4px;
-  background: #e17055;
-  border-radius: 2px;
-  width: 100%;
-}
-
 section.secao-principal-maleficios {
   background: #f1f2f6;
   border: 3px solid #74b9ff;
   border-radius: 20px;
   padding: 40px;
-  margin: 40px 0;
+  
 }
 
 .secao-principal-maleficios {
@@ -211,39 +194,14 @@ section.grade-maleficios {
 .grade-maleficios {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0;
+  gap: 20px;
   position: relative;
   margin-bottom: 20px;
 }
-
-section.grade-maleficios::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 4px;
-  height: 100%;
-  background: #e17055;
-  transform: translateX(-50%);
-  z-index: 2;
-}
-
-.grade-maleficios::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 4px;
-  height: 100%;
-  background: #e17055;
-  transform: translateX(-50%);
-  z-index: 2;
-}
-
 section.item-maleficio {
   padding: 30px;
   background: white;
-  position: relative;
+  
 }
 
 .item-maleficio {
@@ -251,27 +209,6 @@ section.item-maleficio {
   background: white;
   position: relative;
 }
-
-section.item-maleficio:first-child {
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-}
-
-.item-maleficio:first-child {
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-}
-
-section.item-maleficio:last-child {
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-}
-
-.item-maleficio:last-child {
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-}
-
 section.item-maleficio h3 {
   font-size: 18px;
   font-weight: bold;
@@ -362,12 +299,12 @@ section.item-maleficio p {
   }
 
   section.item-maleficio {
-    border-radius: 15px !important;
+    border-radius: 15px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
   }
 
   .item-maleficio {
-    border-radius: 15px !important;
+    border-radius: 15px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
   }
 
