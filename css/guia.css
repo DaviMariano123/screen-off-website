@@ -20,12 +20,10 @@ section.secao-videos-guia,
 section.titulo-videos-guia,
 .titulo-videos-guia {
   text-align: center;
-  font-size: 28px;
+  font-size: 32px;
   font-weight: bold;
   color: #2d3436;
   margin-bottom: 40px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
 }
 
 section.secao-videos,
@@ -64,7 +62,6 @@ section.miniatura-video,
 .miniatura-video {
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 
 section.conteudo-video h3,
@@ -82,23 +79,6 @@ section.conteudo-video p,
   line-height: 1.5;
   margin: 0 0 10px 0;
 }
-
-section.divisor-vermelho-horizontal,
-.divisor-vermelho-horizontal {
-  height: 4px;
-  background: #e17055;
-  border-radius: 2px;
-  width: 100%;
-}
-
-section.divisor-vermelho-vertical,
-.divisor-vermelho-vertical {
-  width: 4px;
-  background: #e17055;
-  border-radius: 2px;
-  height: 100%;
-}
-
 
 section.secao-principal-aplicativos,
 .secao-principal-aplicativos {
@@ -129,7 +109,9 @@ section.grade-aplicativos,
   margin-bottom: 20px;
   align-items: stretch;
 }
-
+div .grade-aplicativos {
+  gap: 20px;
+}
 section.item-aplicativo,
 .item-aplicativo {
   padding: 30px;
@@ -211,7 +193,6 @@ section.titulo-pagina,
   font-weight: bold;
   color: white;
   margin-bottom: 40px;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 section.secao-videos-guia,
@@ -348,7 +329,7 @@ section.icone-aplicativo,
   width: 60px;
   height: 60px;
   background: #2d3436;
-  border-radius: 50%;
+  border-radius: 50px;
   margin-bottom: 20px;
   display: flex;
   align-items: center;
@@ -363,8 +344,7 @@ section.logo-app,
 .logo-app {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  border-radius: 50%;
+  border-radius: 50px;
 }
 
 section.item-aplicativo h3,
@@ -390,16 +370,21 @@ section.item-aplicativo p,
   padding: 6px;
   font-size: 0.9rem;
   text-decoration: none;
-  margin: 55px;
   font-weight: bold;
 }
-
+.secao-dicas {
+  background: #e8f4fd;
+  border: 3px solid #74b9ff;
+  border-radius: 20px;
+  margin: 60px 200px;
+  padding: 25px;
+}
 .secao-rotina {
   background: #e8f4fd;
   border: 3px solid #74b9ff;
   border-radius: 20px;
-  padding: 40px;
-  margin-bottom: 40px;
+  margin: 54px 200px;
+  padding: 20px;
 }
 
 .dicas,
@@ -480,6 +465,7 @@ section.item-aplicativo p,
   font-weight: 700;
   font-size: 14px;
 }
+
 
 /*--------------------------RESPONSIVIDADE---------------------------------*/
 
