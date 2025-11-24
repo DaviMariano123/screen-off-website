@@ -1,3 +1,6 @@
+nav {
+  font-size: 1.1rem;
+}
 .titulo-pagina {
   text-align: center;
   font-size: 36px;
@@ -130,7 +133,29 @@
   text-align: justify;
   font-size: 14px;
 }
-
+.questionario {
+  background-color: white;
+  text-align: center;
+  padding: 2vw;
+  border-radius: 12px;
+  border: 2px solid #0a0a0a;
+}
+.questionario p {
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 0 0 26px;
+}
+.questionario a {
+    background-color: rgb(204, 204, 204);
+    padding: 15px 4.2vw;
+    border-radius: 10px;
+    margin: 10vw 0 10vw 0;
+    text-decoration: none;
+    color: black;
+    border: 2px solid #0a0a0a;
+    line-height: 3vw;
+    font-size: 1.3rem;
+}
 @media (max-width: 768px) {
   .secao-redes-sociais,
   .secao-principal-maleficios {
