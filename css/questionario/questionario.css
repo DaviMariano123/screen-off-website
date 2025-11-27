@@ -44,3 +44,9 @@
 div.pergunta label {
     font-size: 1.7rem;
 }
+div.result {
+    display: none; 
+    margin: 20px; 
+    padding: 10px;
+    border: 1px solid #aaa
+}
