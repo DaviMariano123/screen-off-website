@@ -36,10 +36,77 @@ h1 {
   }
 }
 
+/* Added welcome screen styles */
+.tela-inicial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  min-height: 60vh;
+}
+
+.conteudo-inicial {
+  text-align: center;
+  animation: fadeInScale 0.7s ease-out;
+}
+
+.titulo-inicial {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.descricao-inicial {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 3rem;
+  line-height: 1.6;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-comeccar {
+  padding: 1.2rem 3rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #4a90ff 0%, #357abd 100%);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  box-shadow: 0 8px 30px rgba(74, 144, 255, 0.4);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.btn-comeccar:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(74, 144, 255, 0.6);
+}
+
+.btn-comeccar:active {
+  transform: translateY(-1px);
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    box-shadow: 0 8px 30px rgba(74, 144, 255, 0.4);
+  }
+  50% {
+    box-shadow: 0 8px 30px rgba(74, 144, 255, 0.7);
+  }
+}
+/* END */
+
 #questionario {
   max-width: 900px;
-  margin: 0 auto;
-  margin-bottom: 3rem;
+  margin: 0 auto 0;
   background: white;
   border-radius: 20px;
   padding: 3rem 4rem;
@@ -66,17 +133,6 @@ h1 {
   position: relative;
   padding-left: 30px;
   padding-top: 2rem;
-}
-
-.pergunta label::before {
-  content: attr(data-index);
-  display: block;
-  font-size: 0.85rem;
-  color: #4a90ff;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-bottom: 0.5rem;
 }
 
 @keyframes fadeInScale {
@@ -317,6 +373,21 @@ h1 {
     margin-bottom: 2rem;
   }
 
+  /* Welcome screen media queries */
+  .titulo-inicial {
+    font-size: 2.5rem;
+  }
+
+  .descricao-inicial {
+    font-size: 1.1rem;
+  }
+
+  .btn-comeccar {
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+  }
+  /* END */
+
   .rodape {
     padding: 1.5rem;
   }
@@ -361,6 +432,21 @@ h1 {
     font-size: 0.85rem;
     padding: 0.8rem 1.5rem;
   }
+
+  /* Welcome screen media queries */
+  .titulo-inicial {
+    font-size: 2rem;
+  }
+
+  .descricao-inicial {
+    font-size: 1rem;
+  }
+
+  .btn-comeccar {
+    padding: 0.9rem 2rem;
+    font-size: 0.95rem;
+  }
+  /* END */
 
   .logotipo-rodape {
     font-size: 1rem;
